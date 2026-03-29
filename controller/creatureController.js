@@ -28,7 +28,7 @@ exports.addCreature = async(req,res)=>{
     const NEWCREATURE = await Creature.create({name : req.body.name ,
                                         power: req.body.power,
                                         owner: userId})
-    return res.status(201).json(NEWCREATURE  t)
+    return res.status(201).json(NEWCREATURE)
     }
     catch(err){
     return res.status(400).json(err.message)
