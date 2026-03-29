@@ -1,0 +1,17 @@
+# Node modules (both backend and frontend)
+node_modules/
+creature-collector-client/node_modules/
+
+# Environment variables
+.env
+
+# React build folder
+creature-collector-client/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
